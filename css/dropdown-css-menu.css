@@ -1,0 +1,29 @@
+.navButton {
+    background-color: lawngreen;
+    padding: 11px 25px;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-box {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    padding-top: 20px;
+    margin-left: -24px;
+}
+
+.navButton:hover .dropdown-box {
+    display: block;
+}
+
+.dropdown-box .navButton {
+    background-color: cadetblue;
+}
+
+.dropdown-box .navButton:hover {
+    background-color: rgb(243, 116, 11);
+    transition-duration: 0.5s;
+}
