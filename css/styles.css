@@ -1,6 +1,6 @@
-html {
+/* html {
     height: 100%;
-}
+} */
 
 body {
     background-image: linear-gradient(#FC5E55 ,#FA4083);
@@ -132,4 +132,18 @@ p {
     padding: 9px 23px;
     margin-top: 15px;
     border: 1px solid white;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
 }
