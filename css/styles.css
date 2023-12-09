@@ -98,3 +98,8 @@ p {
     font-size: 100px;
     margin: 10px;
 }
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
