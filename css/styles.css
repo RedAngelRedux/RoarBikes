@@ -134,6 +134,12 @@ p {
     border: 1px solid white;
 }
 
+.myButton:hover {
+    color: white;
+    background-color: rgb(3, 156, 105);
+    transition-duration: 1.5s;
+}
+
 .testimonials {
     display: flex;
     flex-wrap: wrap;
@@ -146,4 +152,13 @@ p {
     border: 1px solid white;
     box-sizing: border-box;
     margin-top: 50px;
+}
+
+/* .tbox :last-child {
+    font-size: 0.8rem;
+} */
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
 }
