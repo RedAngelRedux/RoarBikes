@@ -57,8 +57,8 @@ main {
 }
 
 .herobox1 {
-    background-color: cornflowerblue;
     flex: 2;
+    padding-right: 100px;
 }
 
 .herobox2 {
@@ -69,8 +69,14 @@ main {
 h1 {
     font-size: 3.25rem;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
 }
