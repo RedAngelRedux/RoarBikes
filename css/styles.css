@@ -1,3 +1,7 @@
+body {
+    background-color: #FC5E55;
+}
+
 .container {
     width: 1024px;
     min-height: 300px;
@@ -6,8 +10,10 @@
 }
 
 header {
-    background-color: rgb(1, 65, 1);
-    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 main {
@@ -50,3 +56,12 @@ main {
     background-color: chocolate;
     flex: 1;
 }
+
+/* .logo {
+    padding-top: 10px;;
+    padding-left: 10px;
+}
+
+nav {
+    padding-right: 10px;
+} */
