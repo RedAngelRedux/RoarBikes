@@ -23,6 +23,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    border-bottom: 1px solid lightgray;
 }
 
 main {
@@ -122,4 +123,13 @@ p {
     margin-top: 15px;
     border-radius: 2px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295)
+}
+
+.myNavButton {
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 9px 23px;
+    margin-top: 15px;
+    border: 1px solid white;
 }
