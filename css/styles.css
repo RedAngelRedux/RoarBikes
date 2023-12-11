@@ -125,20 +125,31 @@ p {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.295)
 }
 
-.myNavButton {
-    text-decoration: none;
-    color: white;
-    font-family: 'Playfair Display', serif;
-    padding: 9px 23px;
-    margin-top: 15px;
-    border: 1px solid white;
-}
-
 .myButton:hover {
     color: white;
     background-color: rgb(3, 156, 105);
     transition-duration: 1.5s;
 }
+
+.myNavButton {
+    padding: 9px 23px;
+    margin-top: 15px;
+    border: 1px solid white;
+    display: inline-block;
+    position: relative;
+}
+
+.myNavButton a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+/*.myNavButton a:hover {
+    color: #FA4083;
+    background-color: white;
+    transition-duration: 1.5s;
+} */
 
 .testimonials {
     display: flex;
@@ -160,5 +171,35 @@ p {
 
 .tbox p:last-of-type {
     font-size: 0.8rem;
-    padding-left: 30px;
+    padding-left: 40px;
+}
+
+.dropdown {
+    display: none;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+}
+
+.myNavButton:hover .dropdown {
+    display: block;
+    background-color: white;
+}
+
+.dropdown .myNavButton {
+    color: #FA4083;
+    border-top: 1px solid #FA4083;
+    border-right: 1px solid #FA4083;
+    border-left: 1px solid #FA4083;
+    margin: 0px 2px;
+}
+
+.dropdown .myNavButton a {
+    color: #FA4083;
+}
+
+.myNavA:hover {
+    color: white;
+    background-color: rgb(3, 156, 105);
+    transition-duration: 1.5s;    
 }
